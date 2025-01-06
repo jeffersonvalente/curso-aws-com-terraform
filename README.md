@@ -1,37 +1,96 @@
-# DevOps: AWS com Terraform Automatizando sua infraestrutura
+# Curso: DevOps com AWS e Terraform 🚀☁️
 
-Arquivos do curso de Terraform publicado na seguintes plataformas:
+Este repositório contém os arquivos e códigos utilizados no curso **"DevOps: AWS com Terraform. Automatizando sua infraestrutura"**. O curso abrange desde conceitos básicos até implementações avançadas, capacitando os alunos a criar infraestruturas modernas na AWS utilizando o Terraform.
 
-Curso completo:
-- Gumroad: https://bit.ly/3gvOL0x - Preço cheio. Curso atualizado com novos módulos. Possibilidade de mentoria;
-- Udemy: https://bit.ly/2JuJmJn - Os maiores descontos. Sem atualizações futuras. Sem mentoria;
-- Workover: https://bit.ly/3jPpLDc - Desconto considerável. Possibilidade de mentoria. Sem atualizações futuras.
+---
 
-![Terraform-0-14](https://img.shields.io/badge/terraform-0.14-blueviolet?style=flat-square)
+## 🗂️ Estrutura do Repositório
 
-![Capa do curso](cover.png "Capa do curso")
+- **01-terraform-basico/**: Introdução ao Terraform, criação de recursos simples na AWS.
+- **02-terraform-intermediario/**: Conceitos intermediários, incluindo variáveis, outputs e módulos.
+- **03-site-estatico/**: Implementação de um site estático utilizando S3, CloudFront e Route 53.
+- **04-serverless-app/**: Criação de uma aplicação serverless com Lambda, API Gateway e DynamoDB.
+- **05-autoscaling-app/**: Implementação de uma aplicação com auto scaling utilizando EC2, Load Balancer e Auto Scaling Groups.
 
-Este curso irá levá-lo do básico à implementações mais avançadas que lhe permitirão criar aplicações modernas do Terraform envolvendo site estático (AWS S3 / Route53) com certificado SSL (AWS Certificate Manager) e CDN (CloudFront), aplicação auto-escalável (EC2, VPC, Load Balancer, Auto Scaling Group) e aplicação Serverless (AWS Lambda, API Gateway, DynamoDB, Cognito, CloudWatch, SNS).
+---
 
-Para criar uma boa fundação e ser capaz de criar e principalmente entender as aplicações acima, é ensinado os tópicos mais básicos como procurar os recursos na documentação, como utilizar a ajuda do Terraform CLI e toda a base de como é o funcionamento desta ferramenta, como criar um simples recurso, alterá-lo e destruí-lo, variáveis, interpolação, outputs, locals, remote state, built-in functions, data sources, for_each e for, módulos, workspaces e null_resources com provisioners.
+## 📋 Pré-requisitos
 
-Após finalizar o curso o aluno será capaz de escrever scripts Terraform prontos para serem usados em ambientes de produção, pois eles terão toda a fundação e entendimento necessários para implantar os recursos utilizando as melhores práticas do mercado tanto para uma rápida prototipação e uma manutenção tranquila e confiável.
+- **Conta AWS**: Com permissões para criar e gerenciar recursos.
+- **Terraform Instalado**: Versão 1.6 ou superior.
+- **Conhecimentos Básicos de Infraestrutura**: Familiaridade com conceitos de cloud computing e AWS.
 
-No curso você encontrará muito código que poderá ser reaproveitável para aplicar diretamente na sua própria infraestrutura da AWS, além de um módulo totalmente funcional para criar buckets e arquivos dentro do AWS S3.
+---
 
-### O que você irá aprender
-- Será capaz de automatizar a criação e manutenção da infraestrutura de suas aplicações na AWS
-- Aprender conceitos básicos e avançados como módulos, interpolação, arquivos de estado do Terraform
-- Criar um site estático com React utilizando AWS S3, Cloudfront, certificado SSL e domínio personalizado
-- Criar um aplicação auto-escalável com VPC, Internet Gateway, Subnets, Security Groups, EC2, Load Balancer e Auto Scaling Group
-- Criar uma aplicação serverless utilizando AWS Lambda, DynamoDB, API Gateway, SNS e Cognito
+## 🚀 Como Utilizar os Arquivos do Curso
 
-### Pré requisitos
+1. **Clone o Repositório:**
 
-- Noções básicas de programação
-- Para conseguir rodar os scripts é necessário ter uma conta na AWS, que pode ser criado de graça, porém é preciso ter um cartão de crédito internacional.
+   ```bash
+   git clone https://github.com/jeffersonvalente/curso-aws-com-terraform.git
+   cd curso-aws-com-terraform
+   ```
 
-### Para quem é o curso
+2. **Navegue até o Módulo Desejado:**
 
-- Quem quer aprender Terraform e automatizar o processo de criação e manutenção da infraestrutura de suas aplicações.
-- É Dev, Sys Admin, DevOps ou Simpatizantes e quer aprender sobre automação usando Terraform.
+   ```bash
+   cd 01-terraform-basico
+   ```
+
+3. **Inicialize o Terraform:**
+
+   ```bash
+   terraform init
+   ```
+
+4. **Verifique o Plano de Execução:**
+
+   ```bash
+   terraform plan
+   ```
+
+5. **Aplique as Configurações:**
+
+   ```bash
+   terraform apply
+   ```
+
+   Confirme a aplicação digitando `yes` quando solicitado.
+
+---
+
+## 🎯 Objetivos do Curso
+
+- **Automatizar Infraestruturas**: Utilizar o Terraform para gerenciar recursos na AWS de forma eficiente.
+- **Implementar Melhores Práticas**: Aplicar padrões recomendados na criação e manutenção de infraestruturas como código.
+- **Desenvolver Aplicações Modernas**: Construir desde sites estáticos até aplicações serverless e auto escaláveis na AWS.
+
+---
+
+## 📚 Recursos Adicionais
+
+- **Documentação Oficial do Terraform**: [https://www.terraform.io/docs](https://www.terraform.io/docs)
+- **Documentação da AWS**: [https://docs.aws.amazon.com/](https://docs.aws.amazon.com/)
+- **Curso Original**: [DevOps: AWS com Terraform](https://bit.ly/3gvOL0x)
+
+---
+
+## 🤝 Contribuições
+
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull requests com sugestões de melhorias ou correções.
+
+---
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+---
+
+## 📞 Contato
+
+Para dúvidas, entre em contato:
+
+- **Autor:** Jefferson Valente
+- **LinkedIn:** [jefferson-hoy-valente](https://www.linkedin.com/in/jefferson-hoy-valente/)
+
